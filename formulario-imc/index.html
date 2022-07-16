@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulário</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <form method="get">
+      <div class="input-field col s6">
+        <input class="nome" id="nome" type="text" class="validate" required>
+        <label for="nome">Nome</label>
+      </div>
+
+      <div class="input-field col s6">
+        <input class="sobrenome" id="sobrenome" type="text" class="validate">
+        <label for="sobrenome">Sobrenome</label>
+      </div>
+
+      <div class="input-field col s6">
+        <input class="peso" id="peso" type="text" class="validate">
+        <label for="peso">Peso</label>
+      </div>
+
+      
+      <div class="input-field col s6">
+        <input class="altura" id="altura" type="text" class="validate">
+        <label for="altura">Altura</label>
+      </div>
+
+      <button class="waves-effect waves-light btn">Enviar</button>
+    </form>
+
+    <div class="result">
+
+    </div>
+
+    
+    <script src="form.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>

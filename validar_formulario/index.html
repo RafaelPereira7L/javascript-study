@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</head>
+<body>
+
+  <div class="requisitos">
+    <ul>
+      <li>
+        <p>
+          <span>Preencha todos os campos obrigatórios.</span>
+        </p>
+      </li>
+      <li>
+        <p>
+          <span>Usuário só poderá conter letras e/ou números.</span>
+        </p>
+      </li>
+      <li>
+        <p>
+          <span>Usuário deve ter entre 3 e 12 caracteres.</span>
+        </p>
+      </li>
+      <li>
+        <p>
+          <span>Senha deve ter entre 6 e 12 caracteres.</span>
+        </p>
+      </li>
+    </ul>
+  </div>
+
+  <form class="formulario">
+    <div class="uk-margin">
+      <div class="uk-inline">
+          <label>Nome</label>
+          <input class="uk-input" type="text" placeholder="Nome">
+      </div>
+  </div>
+
+  <div class="uk-margin">
+    <div class="uk-inline">
+        <label>Sobrenome</label>
+        <input class="uk-input" type="text" placeholder="Sobrenome">
+    </div>
+</div>
+
+<div class="uk-margin">
+  <div class="uk-inline">
+      <label>CPF</label>
+      <input class="uk-input cpf" type="text" placeholder="CPF">
+  </div>
+</div>
+
+    <div class="uk-margin">
+        <div class="uk-inline">
+            <label>Usuário</label>
+            <input class="uk-input usuario" type="text" placeholder="Usuário">
+        </div>
+    </div>
+
+    <div class="uk-margin">
+        <div class="uk-inline">
+            <label>Senha</label>
+            <input id="senha" class="uk-input" type="password" placeholder="Senha">
+        </div>
+    </div>
+    <div class="uk-margin">
+      <div class="uk-inline">
+          <label>Repetir senha</label>
+          <input id="repetirSenha" class="uk-input" type="password" placeholder="Repetir senha">
+      </div>
+  </div>
+  <button type="submit" id="btn" class="uk-button uk-button-primary uk-button-large">Enviar</button>
+</form>
+
+    <script src="validarCpf.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

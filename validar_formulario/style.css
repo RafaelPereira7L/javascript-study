@@ -1,0 +1,40 @@
+html {
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 12em !important;
+    margin-left: auto;
+    margin-right: 60em;
+}
+
+
+#btn {
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 17em;
+}
+
+.requisitos {
+    display: block;
+    text-align: center;
+    margin-bottom: 5em;
+}
+.requisitos ul {
+    list-style: none;
+    line-height: 0.5;
+}
+
+.error-text {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+    max-width: fit-content;
+}
+
+label {
+    display: none;
+}
